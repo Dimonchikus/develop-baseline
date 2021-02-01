@@ -3,7 +3,7 @@ provider "aws" {
 
 variable "bucket_name" {
   type = string
-  description = "Bucke_ name"
+  description = "bucket_name"
 }
 
 resource "aws_s3_bucket" "test-bucket" {
